@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pink</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="libs/normalize-css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script>
+        function allowDrop(ev) {
+            ev.preventDefault();
+        }
+    </script>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <nav class="nav nav_active nav_foto">
+                <div class="container container_flex">
+                    <div class="laptop_cover">
+                        <div class="logo">
+                            <a href="#" class="logo__link">
+                                <div class="logo__pic"></div>
+                            </a>
+                        </div>
+                        <div class="menu-burger"></div>
+                    </div>
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="index.html" class="nav__link">Главная</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="foto.html" class="nav__link nav__link_active">Фотографии</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="form.html" class="nav__link">Конкурс</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="https://htmlacademy.ru/" target="_blank" class="nav__link">HTML Academy</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="container">
+                <h2 class="main-title">Фотографии <br> пользователей</h2>
+            </div>
+        </header>
+        <main class="mainContent">
+            <div class="mainpost">
+                <div class="mainpost__title">
+                    <p>Взгляните на фотографии, которые выкладывают пользователи! Видите, как не хватает ваших?</p>
+                </div>
+                <div class="mainpost__foto">
+                    <div class="container container_foto">
+                        <a href="#" class="mainpost__link">ПАНОРАМА ДНЯ</a>
+                    </div>
+                </div>
+                <div class="mainpost__comment container">
+                    <p><span>Анна</span>(5 минут назад)</p>
+                    <p>Прыгать или нет? Напишите в коментарии свой совет исмотрите прямую трансляцию в перископе, задавайте свои вопросы!</p>
+                    <p class="comment_like">Нравится: 215 </p><span class="comment_heart"></span>
+                </div>
+            </div>
+            <section class="userposts container">
+                <div class="post">
+                    <div class="post__image">
+                        <img src="img/foto-page/photo-1-desktop.jpg" alt="" class="post__pic">
+                    </div>
+                    <div class="post__text">
+                        <p><span>Левон</span> (5 часов назад)</p>
+                        <p>Вчера он на луну летал, сегодня в руки к нам попал.</p>
+                        <p class="post__like">Нравится: 356</p><span class="post__heart"></span>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="post__image">
+                        <img src="img/foto-page/photo-2-desktop.jpg" alt="" class="post__pic">
+                    </div>
+                    <div class="post__text">
+                        <p><span>Антон</span> (12 часов назад)</p>
+                        <p>Соседи будут рады!</p>
+                        <p class="post__like">Нравится: 665</p><span class="post__heart"></span>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="post__image">
+                        <img src="img/foto-page/photo-3-desktop.jpg" alt="" class="post__pic">
+                    </div>
+                    <div class="post__text">
+                        <p><span>Борис</span> (20 часов назад)</p>
+                        <p>Здесь могла быть ваша цитата о высоком и вечном.</p>
+                        <p class="post__like">Нравится: 215</p><span class="post__heart"></span>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="post__image">
+                        <img src="img/foto-page/photo-4-desktop.jpg" alt="" class="post__pic">
+                    </div>
+                    <div class="post__text">
+                        <p><span>Сергей</span> (25 часов назад)</p>
+                        <p>Самая кубанская в мире!</p>
+                        <p class="post__like">Нравится: 4</p><span class="post__heart"></span>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="post__image">
+                        <img src="img/foto-page/photo-5-desktop.jpg" alt="" class="post__pic">
+                    </div>
+                    <div class="post__text">
+                        <p><span>Максим</span> (40 часов назад)</p>
+                        <p>Где снег-то?</p>
+                        <p class="post__like">Нравится: 150</p><span class="post__heart"></span>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="post__image">
+                        <img src="img/foto-page/photo-6-desktop.jpg" alt="" class="post__pic">
+                    </div>
+                    <div class="post__text">
+                        <p><span>Надежда</span> (45 часов назад)</p>
+                        <p>Всем GM и взаимные лайки!</p>
+                        <p class="post__like">Нравится: 2560</p><span class="post__heart"></span>
+                    </div>
+                </div>
+            </section>
+            <div class="slogan container">
+                <p>Затмите их всех! <br> Выкладывайте все, что накопилось в телефоне!</p>
+            </div>
+            <div class="change-photo container">
+                <div class="change-photo__image">
+                    <img src="img/foto-page/photo-7-desktop.jpg" alt="" class="change-photo__pic">
+                </div>
+                <div class="change-photo__editor">
+                    <div class="change-photo__area">
+                        <div class="change-photo__crop" ondragover="allowDrop(event)">
+                            <div class="change-photo__crop__pic"></div>
+                            <div class="change-photo__crop__line" >
+                                <div class="circle crop" draggable="true"></div>
+                            </div>
+                        </div>
+                        <div class="change-photo__line"></div>
+                        <div class="change-photo__paintbucket" ondragover="allowDrop(event)">
+                            <div class="change-photo__paintbucket__pic"></div>
+                            <div class="change-photo__paintbucket__line">
+                                <div class="circle paintbucket" draggable="true"></div>
+                            </div>
+                        </div>
+                        <div class="change-photo__line"></div>
+                        <div class="change-photo__contrast" ondragover="allowDrop(event)">
+                            <div class="change-photo__contrast__pic"></div>
+                            <div class="change-photo__contrast__line">
+                                <div class="circle contrast" draggable="true"></div>
+                            </div>
+                        </div>
+                        <div class="change-photo__line"></div>
+                    </div>
+                    <div class="change-photo__area_mobile">
+                        <div class="change-pgoto__pic">
+                          <div class="change-photo__crop__pic change-photo__crop__pic_active"></div>
+                          <div class="change-photo__paintbucket__pic"></div>
+                          <div class="change-photo__contrast__pic"></div>
+                        </div>
+                        <div class="change-photo__lines" ondragover="allowDrop(event)">
+                            <div class="change-photo__crop__line change-photo__crop__line_active">
+                                <div class="circle crop" draggable="true"></div>
+                            </div>
+                            <div class="change-photo__paintbucket__line">
+                                <div class="circle paintbucket" draggable="true"></div>
+                            </div>
+                            <div class="change-photo__contrast__line">
+                                <div class="circle contrast" draggable="true"></div>
+                            </div>
+                        </div>
+                        <div class="change-photo__line"></div>
+                    </div>
+                    <div class="change-photo__btn">
+                        <button class="change-photo__btn__submit" type="submit">Запостить</button>
+                        <button class="change-photo__btn__reset inactive" type="reset">Отмена</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="container footer_cover">
+                <div class="footer__logo">
+                    <a href="#" class="footer__logo__link">
+                        <div class="footer__logo__pic"></div>
+                    </a>
+                </div>
+                <div class="footer__cocial">
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">
+                                <div class="footer__pic_twitter"></div>
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">
+                                <div class="footer__pic_facebook"></div>
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">
+                                <div class="footer__pic_youtube"></div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__copyright">
+                    <a href="#" class="footer__copyright__link">
+                        <p>Разработано</p>
+                        <div class="footer__copyright__pic"></div>
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="libs/jquery/dist/jquery.min.js"></script>
+    <script src="js/foto.js"></script>
+</body>

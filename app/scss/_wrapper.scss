@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10px;
+}
+
+body {
+  font-size: 1.6rem;
+  line-height: 1.42;
+  overflow-x: hidden;
+  position: relative;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+ul, p {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.wrapper {
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+// этот параметр для того чтобы сделать кликабельным элемент svg
+object{
+    pointer-events: none;
+  max-width: 100%;
+}
