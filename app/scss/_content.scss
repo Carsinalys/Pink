@@ -531,8 +531,13 @@ td {
 .container_mobile {
   position: relative;
 
+  @include laptop {
+    padding: 0 1rem;
+  }
+
   @include mobile {
     min-height: 33.1rem;
+    padding: 0;
   }
 }
 
@@ -815,9 +820,10 @@ td {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  padding: 0 1rem;
 
   @include laptop {
-    margin: 0 2rem;
+    padding: 0 2rem;
   }
 }
 
@@ -1182,6 +1188,7 @@ td {
   background: #f2f2f2;
   cursor: pointer;
   border-radius: 30px;
+  outline: none;
 
   @include laptop {
     width: 100%;
@@ -1239,6 +1246,7 @@ td {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  padding: 0 1rem;
   @include laptop {
     padding: 0 2rem;
   }
